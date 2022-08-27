@@ -1,0 +1,113 @@
+body{
+  box-sizing: border-box;
+  position: relative;
+  background: url(/assets/home.png);
+  color: aliceblue;
+}
+
+ul,li{
+padding: 0;
+margin: 0;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.anceints{
+  width: 500px;
+  max-height: 710px;
+  flex-wrap: wrap;
+  flex-direction: column;
+  display: flex;
+  justify-content: space-between;
+}
+
+.anceints__wrapper{
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.anceints_item{
+  width: 210px;
+  height: 280px;
+}
+
+.selected_card{
+  margin-top: 20px;
+  width: 275px;
+  height: 375px;
+}
+
+
+.level_button{
+  padding: 5px;
+  width: 110px;
+}
+
+.levels{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+}
+
+.selected{
+  justify-content: space-around;
+  display: flex;
+  flex-direction: column;
+align-items: center;
+}
+
+.mixed-cards,.selected_card,.hide,.tracker{
+  visibility: hidden;
+}
+
+.tracker{
+  margin-left: 20px;
+}
+
+.show{
+  visibility: visible;
+}
+
+.selected_item{
+  border: 2px solid #1E90FF;
+}
+
+.circles{
+  width: 200px;
+  justify-content: space-around;
+  display: flex;
+}
+
+.circle{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.circle__green{
+  background: green;
+}
+
+.circle__red{
+  background: #A63E00;
+}
+
+.circle__blue{
+  background: blue;
+}
+
+.levels{
+  height: 300px;
+  display: flex;
+  justify-content: space-around;
+}
