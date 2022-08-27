@@ -183,7 +183,7 @@ document.addEventListener( 'click', e=>{
           }
     }
     console.log(color + " " + cardItem)
-    selectCard[0].style.backgroundImage = 'url(/assets/MythicCards/' + color +'/'+ color + cardItem +'.png)'
+    selectCard[0].style.backgroundImage = 'url(./assets/MythicCards/' + color +'/'+ color + cardItem +'.png)'
     if(circle.length-2 == flag && circle[flag].textContent == 0){
       cardList[0].classList.remove('show')
     } 
